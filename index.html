@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Criptográfia Numerica</title>
+</head>
+
+<body>
+  <!-- Imagem tela inicial -->
+
+  <header>
+    <div>
+      <img src="/img/GDPR-amico.svg" alt="icone do site">
+    </div>
+  </header>
+
+  <!-- Texto com informações de ultilização -->
+  <main>
+    <section>
+      <div>
+        <h2>Criptográfia / Descriptografia</h2>
+        <p>Insira a mensagem na caixa abaixo e selecione a opção desejada: </p>
+      </div>
+    </section>
+
+    <!-- Caixa de texto para a digitação -->
+    <section>
+      <form action="#">
+        <div class="caixa">
+          <input id="palavra" class="input" type="text" placeholder="" />
+          <!-- Palavras digitadas anteriormente -->
+          <div class="legenda-p"></div>
+        </div>
+      </form>
+    </section>
+
+    <!-- Botões de criptografar e descriptografar -->
+
+    <section>
+      <div class="container">
+        <div class="box">
+          <div class="cripto">
+            <button>Criptografar</button>
+          </div>
+
+          <div class="descri">
+            <button>Descriptografar</button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+  <script src="js/code.js"></script>
+</body>
+
+</html>
