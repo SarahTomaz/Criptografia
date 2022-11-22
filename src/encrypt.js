@@ -10,6 +10,7 @@ export default function encryptOne(value) {
     if (typeof value === 'string') {
         value = value.toLowerCase();
         //3x + 5 = y
+        console.log(alfhabet.indexOf(value), value);
         encrypted = (alfhabet.indexOf(value) * 3) + 5;
     } else {
         encrypted = (value * 3) + 5;
